@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         //Database 생성 및 열기
         db = openOrCreateDatabase(dbName, dbMode, null);
         //table 생성
-        removeTable();
+        //removeTable(); 초기화 할려면 이전거 지우고 하기
         createTable();
 
         mEtName = (EditText) findViewById(R.id.et_text);
